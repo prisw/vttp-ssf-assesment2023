@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success Page</title>
+</head>
+<body>
+    <h1>Success</h1>
+    <br><hr>
+
+    <h3>You have successfully register for the event: </h3> <br>
+    <a>
+        <label data-th-text="${event.eventName}"></label>
+    </a>
+    <br>
+    <a>
+        <label data-th-text="${event.eventDate}"></label>
+    </a>
+    <br>
+    <br>
+    <button type="button" onclick="location.href='/EventListing.html';">Back To Event Listing</button>
+</body>
+</html>
